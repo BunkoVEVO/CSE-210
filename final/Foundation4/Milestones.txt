@@ -1,0 +1,11 @@
+For my CSE 210 final project, I am working on the Foundation 4 option.
+So far, I have completed Program 1 (Abstraction - YouTube Videos) and Program 2 (Encapsulation - Online Ordering).
+In the YouTube program, I created a Video class that stores video details and manages a list of comments.
+I also made a Comment class so users can leave comments on each video.
+The program displays video information along with all comments.
+
+For the Online Ordering program, I created Product, Customer, Address, and Order classes to handle product details, customer information, and order processing.
+The program calculates total costs, generates packing labels, and creates shipping labels based on the customer's address.
+
+I have tested both programs, and they run without errors.
+Next, I will work on Program 3 (Inheritance - Event Planning) and Program 4 (Polymorphism - Exercise Tracking) to complete the project.

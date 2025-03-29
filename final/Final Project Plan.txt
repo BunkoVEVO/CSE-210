@@ -1,0 +1,24 @@
+CSE 210: Programming with Classes – Final Project Plan
+Chosen Project Option: Foundation 4
+
+Project Description:
+The Foundation 4 project involves completing four separate programs,
+each focusing on a core principle of programming with classes.
+Each program will demonstrate a specific concept and showcase the use of classes, encapsulation, inheritance, polymorphism, and abstraction in a practical manner.
+Below are brief descriptions of each of the four projects:
+
+1.	Program 1: Abstraction with YouTube Videos
+○	This program tracks YouTube videos and the comments left on them. It will involve creating a Video class that manages video details and a Comment class that tracks individual comments.
+The Video class will use abstraction to simplify the management of video data and comments, and the program will output each video’s details along with its associated comments.
+
+2.	Program 2: Encapsulation with Online Ordering
+○	The goal of this program is to help a company manage their product ordering system. This will involve creating classes for Product, Customer, Address, and Order.
+Each class will encapsulate the necessary information, and methods will calculate total costs, generate packing and shipping labels, and return customer details. The program will focus on hiding internal details while providing access to relevant methods for interacting with the data.
+
+3.	Program 3: Inheritance with Event Planning
+○	This program involves an event planning system where events are tracked and marketing materials are generated. There will be a base Event class and derived classes for Lecture, Reception, and Outdoor Gathering.
+Inheritance will allow shared attributes to be stored in the base class while specialized data and methods will be included in the derived classes. The program will generate various types of marketing materials for each event type.
+
+4.	Program 4: Polymorphism with Exercise Tracking
+○	This program tracks exercise activities such as running, cycling, and swimming. It will involve a base Activity class, and derived classes for each type of exercise.
+Polymorphism will be used to calculate and display different metrics for each type of exercise (e.g., distance, speed, and pace) and output a summary of each exercise activity.
