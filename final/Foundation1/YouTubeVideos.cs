@@ -7,50 +7,59 @@
 using System;
 using System.Collections.Generic;
 
+// The Comment class represents individual comments on a video
 class Comment
 {
-    public string CommenterName { get; private set; }
-    public string Text { get; private set; }
+    // Private fields
+    private string _commenterName;
+    private string _text;
 
+    // Constructor to initialize the comment
     public Comment(string commenterName, string text)
     {
-        CommenterName = commenterName;
-        Text = text;
+        _commenterName = commenterName;
+        _text = text;
     }
 
+    // Method to display the comment as a string
     public override string ToString()
     {
-        return $"{CommenterName}: {Text}";
+        return $"{_commenterName}: {_text}";
     }
 }
 
+// The Video class represents a YouTube video and its associated comments
 class Video
 {
-    public string Title { get; private set; }
-    public string Author { get; private set; }
-    public int LengthInSeconds { get; private set; }
-    private List<Comment> comments;
+    // Private fields
+    private string _title;
+    private string _author;
+    private int _lengthInSeconds;
+    private List<Comment> _comments;
 
-    public Video(string title, string author, int length)
+    // Constructor to initialize video details
+    public Video(string title, string author, int lengthInSeconds)
     {
-        Title = title;
-        Author = author;
-        LengthInSeconds = length;
-        comments = new List<Comment>();
+        _title = title;
+        _author = author;
+        _lengthInSeconds = lengthInSeconds;
+        _comments = new List<Comment>();
     }
 
+    // Method to add a comment to the video
     public void AddComment(Comment comment)
     {
-        comments.Add(comment);
+        _comments.Add(comment);
     }
 
+    // Method to display video information and comments
     public void DisplayVideoInfo()
     {
-        Console.WriteLine($"Title: {Title}");
-        Console.WriteLine($"Author: {Author}");
-        Console.WriteLine($"Length: {LengthInSeconds} seconds");
+        Console.WriteLine($"Title: {_title}");
+        Console.WriteLine($"Author: {_author}");
+        Console.WriteLine($"Length: {_lengthInSeconds} seconds");
         Console.WriteLine("Comments:");
-        foreach (var comment in comments)
+        foreach (var comment in _comments)
         {
             Console.WriteLine($"- {comment}");
         }
@@ -58,21 +67,26 @@ class Video
     }
 }
 
+// The main program to test the Video and Comment classes
 class Program
 {
     static void Main()
     {
+        // Create a list to hold videos
         List<Video> videos = new List<Video>();
 
+        // Create a video and add comments to it
         Video video1 = new Video("C# Tutorial", "John Doe", 600);
         video1.AddComment(new Comment("Alice", "Great tutorial!"));
         video1.AddComment(new Comment("Bob", "Very helpful, thanks!"));
         videos.Add(video1);
 
+        // Create another video and add comments to it
         Video video2 = new Video("Understanding OOP", "Jane Smith", 900);
         video2.AddComment(new Comment("Charlie", "Amazing explanation!"));
         videos.Add(video2);
 
+        // Display information for each video
         foreach (var video in videos)
         {
             video.DisplayVideoInfo();

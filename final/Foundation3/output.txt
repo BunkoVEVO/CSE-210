@@ -1,0 +1,53 @@
+Title: C# Programming Lecture
+Description: A deep dive into C# programming.
+Date: 5/10/2025
+Time: 10:00 AM
+Address: 123 Park Lane, Los Angeles, CA, USA
+
+Title: Wedding Reception
+Description: Celebrate the union of Jane and John.
+Date: 6/15/2025
+Time: 6:00 PM
+Address: 123 Park Lane, Los Angeles, CA, USA
+
+Title: Summer Picnic
+Description: Enjoy an afternoon of games and food.
+Date: 7/20/2025
+Time: 1:00 PM
+Address: 123 Park Lane, Los Angeles, CA, USA
+
+
+Title: C# Programming Lecture
+Description: A deep dive into C# programming.
+Date: 5/10/2025
+Time: 10:00 AM
+Address: 123 Park Lane, Los Angeles, CA, USA
+Speaker: John Doe
+Capacity: 50
+
+Title: Wedding Reception
+Description: Celebrate the union of Jane and John.
+Date: 6/15/2025
+Time: 6:00 PM
+Address: 123 Park Lane, Los Angeles, CA, USA
+RSVP Email: rsvp@wedding.com
+
+Title: Summer Picnic
+Description: Enjoy an afternoon of games and food.
+Date: 7/20/2025
+Time: 1:00 PM
+Address: 123 Park Lane, Los Angeles, CA, USA
+Weather Forecast: Sunny with a chance of rain
+
+
+Event Type: Lecture
+Title: C# Programming Lecture
+Date: 5/10/2025
+
+Event Type: Reception
+Title: Wedding Reception
+Date: 6/15/2025
+
+Event Type: OutdoorGathering
+Title: Summer Picnic
+Date: 7/20/2025
